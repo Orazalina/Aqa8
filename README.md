@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/qj732nmy0uoqmvs4?svg=true)](https://ci.appveyor.com/project/Orazalina/aqa8)
