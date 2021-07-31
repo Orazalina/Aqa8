@@ -53,7 +53,7 @@ public class AuthTest {
         $("[data-test-id='login'] input").setValue(blockedUser.getLogin());
         $("[data-test-id='password'] input").setValue(blockedUser.getPassword());
         $(".button").click();
-        $$("h2").findBy(text("Личный кабинет")).shouldBe(visible, Duration.ofSeconds(10));
+        $$("[data-test-id='error-notification']").findBy(text("Ошибка! Пользователь заблокирован")).shouldBe(visible, Duration.ofSeconds(10));
     }
 
     @Test
